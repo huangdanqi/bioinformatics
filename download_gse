@@ -1,0 +1,6 @@
+#download_gse
+#下载gse的url，从郑荣斌师兄获得
+for n in `echo {1..3119}`
+do
+	wget -O geo_gse_collect_page${n}.txt "https://www.ncbi.nlm.nih.gov/geo/browse/?view=series&tax=9606&zsort=date&mode=csv&page=${n}&display=5000"
+done
