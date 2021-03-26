@@ -1,0 +1,2 @@
+#download_gse_or_gsm
+URL = "http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=%s&view=quick&form=xml&targ=self" % accession
